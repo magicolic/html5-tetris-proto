@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="src/engine.js"></script>
+	<script type="text/javascript" src="src/engine-keyboard.js"></script>
+	<script type="text/javascript" src="src/game.js"></script>
+	<script type="text/javascript" src="src/game-mode.js"></script>
+	<script type="text/javascript" src="src/game-mode-game.js"></script>
+	<script type="text/javascript" src="src/game-mode-game-over.js"></script>
+	<script type="text/javascript" src="src/game-mode-pause.js"></script>
+	<script type="text/javascript" src="src/game-mode-start.js"></script>
+	<script type="text/javascript" src="src/form.js"></script>
+	<script type="text/javascript" src="src/form1.js"></script>
+	<script type="text/javascript" src="src/form2.js"></script>
+	<script type="text/javascript" src="src/form3.js"></script>
+	<script type="text/javascript" src="src/form4.js"></script>
+	<script type="text/javascript" src="src/form5.js"></script>
+	<script type="text/javascript" src="src/form6.js"></script>
+	<script type="text/javascript" src="src/form7.js"></script>
+	
+	<style type="text/css">
+		#GameContainer {
+			margin: auto;
+			width: 300px;
+		}
+	</style>
+	
+	<script type="text/javascript">
+		window.onload = function() {
+			var game = new Game();
+			game.Init(function() {
+				game.Start();
+			});
+		}
+	</script>
+</head>
+<body>
+	<div id="GameContainer"></div>
+</body>
+</html>
